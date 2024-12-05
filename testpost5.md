@@ -4,16 +4,16 @@
 ## Overview
 The **DeepSeaNet** project is a cutting-edge research initiative aimed at leveraging _deep learning_ techniques to analyze vast amounts of oceanographic data. This project is a collaboration between the **Institute of Data Science** and the **Marine Biology Center**.
 
----
+***
 
 ## Goals and Objectives
-- **Primary Objective**: Develop a convolutional neural network (CNN) to classify underwater species from sonar images.
+- "**Primary Objective**: Develop a convolutional neural network (CNN) to classify underwater species from sonar images."
 - **Secondary Objectives**:
   1. Build a time-series model to predict water temperature fluctuations.
   2. Analyze salinity data to understand ocean currents.
   3. Publish findings in open-access journals.
 
----
+***
 
 ## Dataset
 We are using the following datasets:
@@ -30,7 +30,7 @@ temperature = np.random.normal(loc=15, scale=3, size=1000)
 print(temperature[:10])
 ```
 
----
+***
 
 ## Methodology
 ### Data Preprocessing
@@ -43,8 +43,7 @@ We propose a hybrid architecture combining:
 - **ResNet50** for feature extraction.
 - **GRU** for sequential data analysis.
 
-```yaml
-# Pseudocode for the architecture
+```
 Model:
   FeatureExtractor: ResNet50
   SequenceAnalyzer: GRU
@@ -52,7 +51,7 @@ Model:
   LossFunction: CrossEntropyLoss
 ```
 
----
+***
 
 ## Results
 ### Sample Visualizations
@@ -63,23 +62,23 @@ Model:
 | Recall       | 93.2% |
 | F1 Score     | 93.1% |
 
-
+***
 
 ## Team Members
 - Dr. Alice Smith (Principal Investigator)
 - Bob Johnson (Data Scientist)
 - Carol Tanaka (Marine Biologist)
 
----
+***
 
 ## Acknowledgments
 We thank the following organizations for their support:
 - **National Science Foundation**
 - **DeepBlue AI Labs**
 
----
+***
 
 ## Contact Information
 For inquiries, please email us at [contact@deepseanet.org](mailto:contact@deepseanet.org).
 
----
+***
